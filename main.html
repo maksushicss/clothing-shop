@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Clothing Shop</title>
+        <link rel="stylesheet" href="style.css" />
+        <!-- Google Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+
+    <body>
+        <div class="title">Modern Giyim</div>
+        <div class="main-ct">
+            <div class="main-select-area">
+                <div class="search-area">
+                    <h3>Ürün Ara</h3>
+                    <input class="search-input" type="text" placeholder="Ürün adina göre ara..." />
+                </div>
+
+                <div class="gender-section">
+                    <h3>Cinsiyet</h3>
+                    <div class="filter-options">
+                        <label>
+                            <input class="gender-input" type="radio" name="gender" value="all" />
+                            Tüm Cinsiyetler
+                        </label>
+                        <label>
+                            <input class="gender-input" type="radio" name="gender" value="man" />
+                            Erkek
+                        </label>
+                        <label>
+                            <input class="gender-input" type="radio" name="gender" value="woman" />
+                            Kadın
+                        </label>
+                        <label>
+                            <input class="gender-input" type="radio" name="gender" value="unisex" />
+                            Unisex
+                        </label>
+                    </div>
+                </div>
+
+                <div class="size-selection">
+                    <div class="size-bar">
+                        Beden
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="size-select-content">
+                        <div class="size-input-sec">
+                            <input class="size-input" type="text" placeholder="Beden Ara" />
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div class="sizes-section">
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="36" />
+                                36 (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="37" />
+                                37 (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="38" />
+                                38 (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="39" />
+                                39 (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="40" />
+                                40 (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="41" />
+                                41 (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="42" />
+                                42 (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="43" />
+                                43 (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="44" />
+                                44 (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="45" />
+                                45 (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="xs" />
+                                XS (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="s" />
+                                S (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="m" />
+                                M (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="l" />
+                                L (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="xl" />
+                                XL (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="xxl" />
+                                XXL (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="one-size" />
+                                One Size (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="48" />
+                                48 (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="50" />
+                                50 (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="52" />
+                                52 (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="54" />
+                                54 (55)
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="size-selection">
+                    <div class="size-bar">
+                        Renk
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="size-select-content">
+                        <div class="size-input-sec">
+                            <input class="size-input" type="text" placeholder="Beden Ara" />
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div class="sizes-section">
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="36" />
+                                36 (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="37" />
+                                37 (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="38" />
+                                38 (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="39" />
+                                39 (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="40" />
+                                40 (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="41" />
+                                41 (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="42" />
+                                42 (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="43" />
+                                43 (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="44" />
+                                44 (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="45" />
+                                45 (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="xs" />
+                                XS (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="s" />
+                                S (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="m" />
+                                M (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="l" />
+                                L (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="xl" />
+                                XL (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="xxl" />
+                                XXL (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="one-size" />
+                                One Size (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="48" />
+                                48 (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="50" />
+                                50 (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="52" />
+                                52 (55)
+                            </label>
+                            <label class="size-label">
+                                <input class="size-checkbox" type="checkbox" value="54" />
+                                54 (55)
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="placement-section">
+                    <h3>Sıralama</h3>
+                    <div class="filter-options">
+                        <label>
+                            <input
+                                class="placement-input"
+                                type="radio"
+                                name="placement"
+                                value="varsayılan"
+                            />
+                            Varsayılan
+                        </label>
+                        <label>
+                            <input
+                                class="placement-input"
+                                type="radio"
+                                name="placement"
+                                value="artan"
+                            />
+                            Fiyata Göre Artan
+                        </label>
+                        <label>
+                            <input
+                                class="placement-input"
+                                type="radio"
+                                name="placement"
+                                value="azalan"
+                            />
+                            Fiyata Göre Azalan
+                        </label>
+                    </div>
+                </div>
+
+                <button class="clear-filter-btn">Filtreleri Temizle</button>
+            </div>
+            <div class="items-section">
+                <div class="item">
+                    <div class="item-pp">Summer Dress</div>
+                    <div class="item-infos">
+                        <p class="category">Dresses(female)</p>
+                        <h4>Kadın Yazlık Elbise</h4>
+                        <p class="material">Viscose</p>
+                        <p class="price">79.5$</p>
+                        <div class="colors">
+                            <div class="color" style="background-color: red"></div>
+                            <div class="color" style="background-color: blue"></div>
+                            <div class="color" style="background-color: yellow"></div>
+                            <div class="color" style="background-color: green"></div>
+                            <div class="color" style="background-color: saddlebrown"></div>
+                        </div>
+                        <div class="size-box-div">
+                            <div class="size-select-box">XS</div>
+                            <div class="size-select-box">S</div>
+                            <div class="size-select-box">M</div>
+                            <div class="size-select-box">L</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-pp">Summer Dress</div>
+                    <div class="item-infos">
+                        <p class="category">Dresses(female)</p>
+                        <h4>Kadın Yazlık Elbise</h4>
+                        <p class="material">Viscose</p>
+                        <p class="price">79.5$</p>
+                        <div class="colors">
+                            <div class="color" style="background-color: red"></div>
+                            <div class="color" style="background-color: blue"></div>
+                            <div class="color" style="background-color: yellow"></div>
+                            <div class="color" style="background-color: green"></div>
+                            <div class="color" style="background-color: saddlebrown"></div>
+                        </div>
+                        <div class="size-box-div">
+                            <div class="size-select-box">XS</div>
+                            <div class="size-select-box">S</div>
+                            <div class="size-select-box">M</div>
+                            <div class="size-select-box">L</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-pp">Summer Dress</div>
+                    <div class="item-infos">
+                        <p class="category">Dresses(female)</p>
+                        <h4>Kadın Yazlık Elbise</h4>
+                        <p class="material">Viscose</p>
+                        <p class="price">79.5$</p>
+                        <div class="colors">
+                            <div class="color" style="background-color: red"></div>
+                            <div class="color" style="background-color: blue"></div>
+                            <div class="color" style="background-color: yellow"></div>
+                            <div class="color" style="background-color: green"></div>
+                            <div class="color" style="background-color: saddlebrown"></div>
+                        </div>
+                        <div class="size-box-div">
+                            <div class="size-select-box">XS</div>
+                            <div class="size-select-box">S</div>
+                            <div class="size-select-box">M</div>
+                            <div class="size-select-box">L</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-pp">Summer Dress</div>
+                    <div class="item-infos">
+                        <p class="category">Dresses(female)</p>
+                        <h4>Kadın Yazlık Elbise</h4>
+                        <p class="material">Viscose</p>
+                        <p class="price">79.5$</p>
+                        <div class="colors">
+                            <div class="color" style="background-color: red"></div>
+                            <div class="color" style="background-color: blue"></div>
+                            <div class="color" style="background-color: yellow"></div>
+                            <div class="color" style="background-color: green"></div>
+                            <div class="color" style="background-color: saddlebrown"></div>
+                        </div>
+                        <div class="size-box-div">
+                            <div class="size-select-box">XS</div>
+                            <div class="size-select-box">S</div>
+                            <div class="size-select-box">M</div>
+                            <div class="size-select-box">L</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-pp">Summer Dress</div>
+                    <div class="item-infos">
+                        <p class="category">Dresses(female)</p>
+                        <h4>Kadın Yazlık Elbise</h4>
+                        <p class="material">Viscose</p>
+                        <p class="price">79.5$</p>
+                        <div class="colors">
+                            <div class="color" style="background-color: red"></div>
+                            <div class="color" style="background-color: blue"></div>
+                            <div class="color" style="background-color: yellow"></div>
+                            <div class="color" style="background-color: green"></div>
+                            <div class="color" style="background-color: saddlebrown"></div>
+                        </div>
+                        <div class="size-box-div">
+                            <div class="size-select-box">XS</div>
+                            <div class="size-select-box">S</div>
+                            <div class="size-select-box">M</div>
+                            <div class="size-select-box">L</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-pp">Summer Dress</div>
+                    <div class="item-infos">
+                        <p class="category">Dresses(female)</p>
+                        <h4>Kadın Yazlık Elbise</h4>
+                        <p class="material">Viscose</p>
+                        <p class="price">79.5$</p>
+                        <div class="colors">
+                            <div class="color" style="background-color: red"></div>
+                            <div class="color" style="background-color: blue"></div>
+                            <div class="color" style="background-color: yellow"></div>
+                            <div class="color" style="background-color: green"></div>
+                            <div class="color" style="background-color: saddlebrown"></div>
+                        </div>
+                        <div class="size-box-div">
+                            <div class="size-select-box">XS</div>
+                            <div class="size-select-box">S</div>
+                            <div class="size-select-box">M</div>
+                            <div class="size-select-box">L</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="/clothing-shop-project/script.js"></script>
+    </body>
+</html>
