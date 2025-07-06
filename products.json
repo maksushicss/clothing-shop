@@ -8,7 +8,15 @@
         "colors": ["White", "Black", "Grey", "Navy", "Burgundy"],
         "image": "https://via.placeholder.com/150/F0F8FF/000000?text=Basic+T-Shirt",
         "category": "T-Shirts",
-        "material": "Cotton"
+        "material": "Cotton",
+        "stock": {
+            "XS": 5,
+            "S": 10,
+            "M": 15,
+            "L": 10,
+            "XL": 5,
+            "total": 45
+        }
     },
     {
         "id": 2,
@@ -19,7 +27,14 @@
         "colors": ["Red", "Blue", "Floral", "Yellow", "Green"],
         "image": "https://via.placeholder.com/150/FFDAB9/000000?text=Summer+Dress",
         "category": "Dresses",
-        "material": "Viscose"
+        "material": "Viscose",
+        "stock": {
+            "XS": 3,
+            "S": 5,
+            "M": 3,
+            "L": 1,
+            "total": 12
+        }
     },
     {
         "id": 3,
@@ -30,7 +45,16 @@
         "colors": ["Dark Blue", "Light Blue", "Black", "Grey"],
         "image": "https://via.placeholder.com/150/4682B4/FFFFFF?text=Men+Jeans",
         "category": "Pants",
-        "material": "Denim"
+        "material": "Denim",
+        "stock": {
+            "28": 0,
+            "30": 0,
+            "32": 0,
+            "34": 0,
+            "36": 0,
+            "38": 0,
+            "total": 0
+        }
     },
     {
         "id": 4,
@@ -41,7 +65,14 @@
         "colors": ["Black", "Green", "Navy", "Red", "Grey"],
         "image": "https://via.placeholder.com/150/2F4F4F/FFFFFF?text=Hoodie",
         "category": "Sweatshirts",
-        "material": "Fleece"
+        "material": "Fleece",
+        "stock": {
+            "M": 2,
+            "L": 3,
+            "XL": 2,
+            "XXL": 1,
+            "total": 8
+        }
     },
     {
         "id": 5,
@@ -52,7 +83,14 @@
         "colors": ["Black", "Pink", "Purple", "Grey"],
         "image": "https://via.placeholder.com/150/DA70D6/FFFFFF?text=Leggings",
         "category": "Leggings",
-        "material": "Spandex"
+        "material": "Spandex",
+        "stock": {
+            "XS": 5,
+            "S": 7,
+            "M": 6,
+            "L": 5,
+            "total": 23
+        }
     },
     {
         "id": 6,
@@ -63,7 +101,11 @@
         "colors": ["Black", "White", "Blue", "Red"],
         "image": "https://via.placeholder.com/150/808080/FFFFFF?text=Hat",
         "category": "Accessories",
-        "material": "Cotton"
+        "material": "Cotton",
+        "stock": {
+            "One Size": 0,
+            "total": 0
+        }
     },
     {
         "id": 7,
@@ -74,7 +116,14 @@
         "colors": ["Blue", "Light Blue", "Black"],
         "image": "https://via.placeholder.com/150/ADD8E6/000000?text=Denim+Jacket",
         "category": "Jackets",
-        "material": "Denim"
+        "material": "Denim",
+        "stock": {
+            "S": 1,
+            "M": 2,
+            "L": 1,
+            "XL": 1,
+            "total": 5
+        }
     },
     {
         "id": 8,
@@ -85,7 +134,14 @@
         "colors": ["White", "Blue", "Checkered", "Striped"],
         "image": "https://via.placeholder.com/150/87CEEB/FFFFFF?text=Men+Shirt",
         "category": "Shirts",
-        "material": "Linen"
+        "material": "Linen",
+        "stock": {
+            "S": 4,
+            "M": 5,
+            "L": 5,
+            "XL": 3,
+            "total": 17
+        }
     },
     {
         "id": 9,
@@ -96,7 +152,19 @@
         "colors": ["Black", "White", "Red", "Blue"],
         "image": "https://via.placeholder.com/150/C0C0C0/000000?text=Sneakers",
         "category": "Shoes",
-        "material": "Synthetic"
+        "material": "Synthetic",
+        "stock": {
+            "36": 3,
+            "37": 4,
+            "38": 5,
+            "39": 4,
+            "40": 5,
+            "41": 4,
+            "42": 4,
+            "43": 2,
+            "44": 1,
+            "total": 32
+        }
     },
     {
         "id": 10,
@@ -107,7 +175,14 @@
         "colors": ["Black", "Navy", "Floral", "Beige"],
         "image": "https://via.placeholder.com/150/F5DEB3/000000?text=Skirt",
         "category": "Skirts",
-        "material": "Polyester"
+        "material": "Polyester",
+        "stock": {
+            "XS": 2,
+            "S": 3,
+            "M": 2,
+            "L": 2,
+            "total": 9
+        }
     },
     {
         "id": 11,
@@ -118,7 +193,14 @@
         "colors": ["Khaki", "Navy", "Grey", "Black"],
         "image": "https://via.placeholder.com/150/6B8E23/FFFFFF?text=Men+Shorts",
         "category": "Shorts",
-        "material": "Cotton"
+        "material": "Cotton",
+        "stock": {
+            "S": 3,
+            "M": 5,
+            "L": 4,
+            "XL": 2,
+            "total": 14
+        }
     },
     {
         "id": 12,
@@ -129,7 +211,13 @@
         "colors": ["Cream", "Pink", "Grey", "Black"],
         "image": "https://via.placeholder.com/150/DDA0DD/FFFFFF?text=Cardigan",
         "category": "Knitwear",
-        "material": "Wool Blend"
+        "material": "Wool Blend",
+        "stock": {
+            "S": 0,
+            "M": 0,
+            "L": 0,
+            "total": 0
+        }
     },
     {
         "id": 13,
@@ -140,7 +228,11 @@
         "colors": ["White", "Black", "Grey"],
         "image": "https://via.placeholder.com/150/708090/FFFFFF?text=Socks",
         "category": "Accessories",
-        "material": "Cotton Blend"
+        "material": "Cotton Blend",
+        "stock": {
+            "One Size": 56,
+            "total": 56
+        }
     },
     {
         "id": 14,
@@ -151,7 +243,14 @@
         "colors": ["Navy", "White", "Green", "Burgundy"],
         "image": "https://via.placeholder.com/150/4169E1/FFFFFF?text=Polo+T-Shirt",
         "category": "T-Shirts",
-        "material": "Pique Cotton"
+        "material": "Pique Cotton",
+        "stock": {
+            "S": 5,
+            "M": 7,
+            "L": 6,
+            "XL": 3,
+            "total": 21
+        }
     },
     {
         "id": 15,
@@ -162,7 +261,13 @@
         "colors": ["Black", "Navy", "Beige"],
         "image": "https://via.placeholder.com/150/B0C4DE/000000?text=Blazer",
         "category": "Jackets",
-        "material": "Polyester"
+        "material": "Polyester",
+        "stock": {
+            "S": 2,
+            "M": 3,
+            "L": 2,
+            "total": 7
+        }
     },
     {
         "id": 16,
@@ -173,7 +278,14 @@
         "colors": ["Black", "Grey", "Navy"],
         "image": "https://via.placeholder.com/150/A9A9A9/FFFFFF?text=Sweatpants",
         "category": "Pants",
-        "material": "Fleece"
+        "material": "Fleece",
+        "stock": {
+            "S": 4,
+            "M": 6,
+            "L": 5,
+            "XL": 3,
+            "total": 18
+        }
     },
     {
         "id": 17,
@@ -184,7 +296,14 @@
         "colors": ["White", "Blue", "Floral", "Black"],
         "image": "https://via.placeholder.com/150/E0FFFF/000000?text=Blouse",
         "category": "Shirts",
-        "material": "Chiffon"
+        "material": "Chiffon",
+        "stock": {
+            "XS": 2,
+            "S": 3,
+            "M": 4,
+            "L": 2,
+            "total": 11
+        }
     },
     {
         "id": 18,
@@ -195,7 +314,16 @@
         "colors": ["Black", "White", "Grey", "Blue"],
         "image": "https://via.placeholder.com/150/778899/FFFFFF?text=Men+Sport+Shoes",
         "category": "Shoes",
-        "material": "Mesh"
+        "material": "Mesh",
+        "stock": {
+            "40": 1,
+            "41": 1,
+            "42": 2,
+            "43": 1,
+            "44": 1,
+            "45": 0,
+            "total": 6
+        }
     },
     {
         "id": 19,
@@ -206,7 +334,15 @@
         "colors": ["Brown", "Black", "Beige"],
         "image": "https://via.placeholder.com/150/F4A460/000000?text=Sandals",
         "category": "Shoes",
-        "material": "Leather"
+        "material": "Leather",
+        "stock": {
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "total": 0
+        }
     },
     {
         "id": 20,
@@ -217,7 +353,11 @@
         "colors": ["Black", "Navy", "Olive Green"],
         "image": "https://via.placeholder.com/150/5F9EA0/FFFFFF?text=Backpack",
         "category": "Accessories",
-        "material": "Polyester"
+        "material": "Polyester",
+        "stock": {
+            "One Size": 25,
+            "total": 25
+        }
     },
     {
         "id": 21,
@@ -228,7 +368,14 @@
         "colors": ["Black", "Navy", "Denim"],
         "image": "https://via.placeholder.com/150/6A5ACD/FFFFFF?text=Jumpsuit",
         "category": "Jumpsuits",
-        "material": "Cotton Blend"
+        "material": "Cotton Blend",
+        "stock": {
+            "XS": 1,
+            "S": 1,
+            "M": 1,
+            "L": 1,
+            "total": 4
+        }
     },
     {
         "id": 22,
@@ -239,7 +386,14 @@
         "colors": ["Black", "Navy", "Charcoal"],
         "image": "https://via.placeholder.com/150/191970/FFFFFF?text=Suit+Jacket",
         "category": "Formal Wear",
-        "material": "Wool"
+        "material": "Wool",
+        "stock": {
+            "48": 1,
+            "50": 1,
+            "52": 1,
+            "54": 0,
+            "total": 3
+        }
     },
     {
         "id": 23,
@@ -250,7 +404,11 @@
         "colors": ["Black", "Grey", "Navy", "Red"],
         "image": "https://via.placeholder.com/150/696969/FFFFFF?text=Beanie",
         "category": "Accessories",
-        "material": "Acrylic"
+        "material": "Acrylic",
+        "stock": {
+            "One Size": 42,
+            "total": 42
+        }
     },
     {
         "id": 24,
@@ -261,7 +419,13 @@
         "colors": ["Cream", "Black", "Pink", "Blue"],
         "image": "https://via.placeholder.com/150/FFE4E1/000000?text=Sweater",
         "category": "Knitwear",
-        "material": "Cashmere Blend"
+        "material": "Cashmere Blend",
+        "stock": {
+            "S": 5,
+            "M": 6,
+            "L": 4,
+            "total": 15
+        }
     },
     {
         "id": 25,
@@ -272,7 +436,14 @@
         "colors": ["Black", "Brown"],
         "image": "https://via.placeholder.com/150/A52A2A/FFFFFF?text=Leather+Jacket",
         "category": "Jackets",
-        "material": "Leather"
+        "material": "Leather",
+        "stock": {
+            "M": 1,
+            "L": 1,
+            "XL": 0,
+            "XXL": 0,
+            "total": 2
+        }
     },
     {
         "id": 26,
@@ -283,7 +454,18 @@
         "colors": ["Black", "Grey", "Blue"],
         "image": "https://via.placeholder.com/150/778899/000000?text=Slippers",
         "category": "Shoes",
-        "material": "EVA"
+        "material": "EVA",
+        "stock": {
+            "37": 3,
+            "38": 4,
+            "39": 5,
+            "40": 5,
+            "41": 4,
+            "42": 4,
+            "43": 2,
+            "44": 1,
+            "total": 28
+        }
     },
     {
         "id": 27,
@@ -294,7 +476,13 @@
         "colors": ["Black", "Blue", "Floral", "Red"],
         "image": "https://via.placeholder.com/150/4682B4/FFFFFF?text=Swimsuit",
         "category": "Swimwear",
-        "material": "Spandex"
+        "material": "Spandex",
+        "stock": {
+            "S": 4,
+            "M": 5,
+            "L": 4,
+            "total": 13
+        }
     },
     {
         "id": 28,
@@ -305,7 +493,14 @@
         "colors": ["Navy", "Blue", "Printed", "Black"],
         "image": "https://via.placeholder.com/150/4169E1/FFFFFF?text=Swim+Shorts",
         "category": "Swimwear",
-        "material": "Polyester"
+        "material": "Polyester",
+        "stock": {
+            "S": 4,
+            "M": 6,
+            "L": 5,
+            "XL": 4,
+            "total": 19
+        }
     },
     {
         "id": 29,
@@ -316,7 +511,11 @@
         "colors": ["Black", "Brown", "Silver"],
         "image": "https://via.placeholder.com/150/B0C4DE/000000?text=Sunglasses",
         "category": "Accessories",
-        "material": "Polycarbonate"
+        "material": "Polycarbonate",
+        "stock": {
+            "One Size": 0,
+            "total": 0
+        }
     },
     {
         "id": 30,
@@ -327,7 +526,14 @@
         "colors": ["Black", "Navy", "Grey"],
         "image": "https://via.placeholder.com/150/6A5ACD/FFFFFF?text=Work+Dress",
         "category": "Dresses",
-        "material": "Crepe"
+        "material": "Crepe",
+        "stock": {
+            "S": 2,
+            "M": 3,
+            "L": 1,
+            "XL": 1,
+            "total": 7
+        }
     },
     {
         "id": 31,
@@ -338,7 +544,14 @@
         "colors": ["Black", "Grey", "Navy"],
         "image": "https://via.placeholder.com/150/5F9EA0/FFFFFF?text=Sport+Jacket",
         "category": "Jackets",
-        "material": "Polyester"
+        "material": "Polyester",
+        "stock": {
+            "M": 3,
+            "L": 4,
+            "XL": 2,
+            "XXL": 1,
+            "total": 10
+        }
     },
     {
         "id": 32,
@@ -349,7 +562,11 @@
         "colors": ["Black", "Grey", "Red", "Green"],
         "image": "https://via.placeholder.com/150/808080/FFFFFF?text=Scarf",
         "category": "Accessories",
-        "material": "Acrylic"
+        "material": "Acrylic",
+        "stock": {
+            "One Size": 36,
+            "total": 36
+        }
     },
     {
         "id": 33,
@@ -360,7 +577,15 @@
         "colors": ["Black", "Nude", "Red"],
         "image": "https://via.placeholder.com/150/DB7093/FFFFFF?text=Heels",
         "category": "Shoes",
-        "material": "Faux Leather"
+        "material": "Faux Leather",
+        "stock": {
+            "36": 1,
+            "37": 1,
+            "38": 1,
+            "39": 1,
+            "40": 1,
+            "total": 5
+        }
     },
     {
         "id": 34,
@@ -371,7 +596,14 @@
         "colors": ["Black", "Grey", "Navy"],
         "image": "https://via.placeholder.com/150/696969/FFFFFF?text=Joggers",
         "category": "Pants",
-        "material": "Cotton Blend"
+        "material": "Cotton Blend",
+        "stock": {
+            "S": 5,
+            "M": 7,
+            "L": 6,
+            "XL": 4,
+            "total": 22
+        }
     },
     {
         "id": 35,
@@ -382,7 +614,11 @@
         "colors": ["Black", "Red", "Brown", "Pink"],
         "image": "https://via.placeholder.com/150/FFC0CB/000000?text=Wallet",
         "category": "Accessories",
-        "material": "PU Leather"
+        "material": "PU Leather",
+        "stock": {
+            "One Size": 30,
+            "total": 30
+        }
     },
     {
         "id": 36,
@@ -393,7 +629,14 @@
         "colors": ["Black", "Navy", "Grey"],
         "image": "https://via.placeholder.com/150/A9A9A9/FFFFFF?text=Hooded+Vest",
         "category": "Vests",
-        "material": "Polyester"
+        "material": "Polyester",
+        "stock": {
+            "S": 2,
+            "M": 3,
+            "L": 2,
+            "XL": 1,
+            "total": 8
+        }
     },
     {
         "id": 37,
@@ -404,7 +647,14 @@
         "colors": ["Black", "Navy", "Green"],
         "image": "https://via.placeholder.com/150/00008B/FFFFFF?text=Winter+Coat",
         "category": "Jackets",
-        "material": "Down"
+        "material": "Down",
+        "stock": {
+            "M": 0,
+            "L": 0,
+            "XL": 0,
+            "XXL": 0,
+            "total": 0
+        }
     },
     {
         "id": 38,
@@ -415,7 +665,13 @@
         "colors": ["Beige", "Black", "White", "Mustard"],
         "image": "https://via.placeholder.com/150/F0E68C/000000?text=Pullover",
         "category": "Knitwear",
-        "material": "Acrylic"
+        "material": "Acrylic",
+        "stock": {
+            "S": 3,
+            "M": 4,
+            "L": 4,
+            "total": 11
+        }
     },
     {
         "id": 39,
@@ -426,7 +682,11 @@
         "colors": ["White", "Black", "Grey", "Blue"],
         "image": "https://via.placeholder.com/150/C0C0C0/000000?text=Sport+Socks",
         "category": "Accessories",
-        "material": "Cotton Blend"
+        "material": "Cotton Blend",
+        "stock": {
+            "One Size": 47,
+            "total": 47
+        }
     },
     {
         "id": 40,
@@ -437,7 +697,14 @@
         "colors": ["Blue", "Black"],
         "image": "https://via.placeholder.com/150/ADD8E6/000000?text=Men+Denim+Jacket",
         "category": "Jackets",
-        "material": "Denim"
+        "material": "Denim",
+        "stock": {
+            "S": 1,
+            "M": 2,
+            "L": 2,
+            "XL": 1,
+            "total": 6
+        }
     },
     {
         "id": 41,
@@ -448,7 +715,14 @@
         "colors": ["Khaki", "Black", "Beige"],
         "image": "https://via.placeholder.com/150/BDB76B/000000?text=Cargo+Pants",
         "category": "Pants",
-        "material": "Cotton"
+        "material": "Cotton",
+        "stock": {
+            "XS": 3,
+            "S": 4,
+            "M": 4,
+            "L": 3,
+            "total": 14
+        }
     },
     {
         "id": 42,
@@ -459,7 +733,11 @@
         "colors": ["Beige", "White", "Navy"],
         "image": "https://via.placeholder.com/150/F5DEB3/000000?text=Sun+Hat",
         "category": "Accessories",
-        "material": "Straw"
+        "material": "Straw",
+        "stock": {
+            "One Size": 27,
+            "total": 27
+        }
     },
     {
         "id": 43,
@@ -470,7 +748,16 @@
         "colors": ["Black", "Brown"],
         "image": "https://via.placeholder.com/150/8B4513/FFFFFF?text=Dress+Shoes",
         "category": "Shoes",
-        "material": "Leather"
+        "material": "Leather",
+        "stock": {
+            "40": 1,
+            "41": 2,
+            "42": 2,
+            "43": 2,
+            "44": 1,
+            "45": 1,
+            "total": 9
+        }
     },
     {
         "id": 44,
@@ -481,7 +768,13 @@
         "colors": ["Pink", "Blue", "Patterned"],
         "image": "https://via.placeholder.com/150/E6E6FA/000000?text=Pajamas",
         "category": "Sleepwear",
-        "material": "Satin"
+        "material": "Satin",
+        "stock": {
+            "S": 5,
+            "M": 6,
+            "L": 5,
+            "total": 16
+        }
     },
     {
         "id": 45,
@@ -492,7 +785,11 @@
         "colors": ["Black", "Navy", "Red"],
         "image": "https://via.placeholder.com/150/6A5ACD/FFFFFF?text=Fanny+Pack",
         "category": "Accessories",
-        "material": "Nylon"
+        "material": "Nylon",
+        "stock": {
+            "One Size": 21,
+            "total": 21
+        }
     },
     {
         "id": 46,
@@ -503,7 +800,14 @@
         "colors": ["Black", "Navy", "Grey"],
         "image": "https://via.placeholder.com/150/708090/FFFFFF?text=Men+Vest",
         "category": "Vests",
-        "material": "Polyester"
+        "material": "Polyester",
+        "stock": {
+            "S": 2,
+            "M": 3,
+            "L": 1,
+            "XL": 1,
+            "total": 7
+        }
     },
     {
         "id": 47,
@@ -514,7 +818,14 @@
         "colors": ["Black", "Camel", "Olive"],
         "image": "https://via.placeholder.com/150/B8860B/FFFFFF?text=Women+Coat",
         "category": "Jackets",
-        "material": "Wool Blend"
+        "material": "Wool Blend",
+        "stock": {
+            "S": 1,
+            "M": 1,
+            "L": 1,
+            "XL": 1,
+            "total": 4
+        }
     },
     {
         "id": 48,
@@ -525,7 +836,14 @@
         "colors": ["Black", "Grey", "Blue"],
         "image": "https://via.placeholder.com/150/A9A9A9/FFFFFF?text=Sport+Shorts",
         "category": "Shorts",
-        "material": "Polyester"
+        "material": "Polyester",
+        "stock": {
+            "S": 7,
+            "M": 9,
+            "L": 8,
+            "XL": 5,
+            "total": 29
+        }
     },
     {
         "id": 49,
@@ -536,7 +854,11 @@
         "colors": ["Black", "Brown"],
         "image": "https://via.placeholder.com/150/8B4513/FFFFFF?text=Men+Wallet",
         "category": "Accessories",
-        "material": "Leather"
+        "material": "Leather",
+        "stock": {
+            "One Size": 33,
+            "total": 33
+        }
     },
     {
         "id": 50,
@@ -547,6 +869,10 @@
         "colors": ["Natural", "Striped", "Blue"],
         "image": "https://via.placeholder.com/150/F5DEB3/000000?text=Beach+Bag",
         "category": "Accessories",
-        "material": "Straw"
+        "material": "Straw",
+        "stock": {
+            "One Size": 19,
+            "total": 19
+        }
     }
 ]
